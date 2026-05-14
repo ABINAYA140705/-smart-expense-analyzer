@@ -3,7 +3,7 @@ import axios from 'axios'
 import { CategoryPieChart, CategoryBarChart } from '../components/ExpenseChart'
 import InsightCard from '../components/InsightCard'
 
-const API = 'http://localhost:5000'
+const API = 'https://smart-expense-api-7i7d.onrender.com/'
 const COLORS = ['#00d4aa','#ffb347','#ff5e7d','#4fa3ff','#a78bfa','#34d399','#f472b6','#fb923c']
 
 /* ── Stat Card ── */

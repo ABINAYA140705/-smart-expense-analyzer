@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:5000'
+const API = 'https://smart-expense-api-7i7d.onrender.com/'
 const CATEGORIES  = ['Food','Travel','Shopping','Education','Health','Entertainment','Utilities','Other']
 const PAYMENT_MODES = ['UPI','Cash','Card','Net Banking','Wallet']
 
