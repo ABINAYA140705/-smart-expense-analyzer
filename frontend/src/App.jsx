@@ -1,10 +1,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import Navbar from './components/navbar'
-import Dashboard from './pages/dashboard'
+import Navbar from './components/Navbar'
+import Dashboard from './pages/Dashboard'
 import AddExpense from './pages/AddExpense'
-import UploadCSV from './pages/uploadCSV'
+import UploadCSV from './pages/UploadCSV'
 import Budget from './pages/Budget'
-
 export default function App() {
   return (
     <BrowserRouter>
